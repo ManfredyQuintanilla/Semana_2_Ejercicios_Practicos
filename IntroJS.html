@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <button oneclick="alert('Programacion Computacional IV')">Mensaje</button>
+
+
+    <script>
+        //document.write("Programacion");
+
+        //Variables
+        //const | var | let | sin definir
+        const pi=3.1416;
+        console.log("El valor constante de pi es: " + pi);
+
+        var StringValue="Esto es un string";
+        console.log("Valor de stringValue: " + StringValue);
+        var age;
+        age=22;
+        console.log("Valor de age: " + age);
+        age=30;
+        console.log("Valor de age: " + age);
+        
+
+        let name="Jose";
+        let lastname;
+        lastname="Perez";
+        console.log(name + " " + lastname);
+
+        //let lastname="Flores"; //let no permite redeclarar pero si reasignar
+
+        //condicionales
+        let val1 =25;
+        let val2="25";
+        let result = val1===val2; //igualdad estricta
+        if(result)
+        {
+            console.log("Los valores son iguales")
+        }
+        else
+        {
+            console.log("Los valores no coinciden");
+        };
+        switch(result)
+        {
+            case true:
+                console.log("Los valores coinciden");
+                break;
+            case false: 
+                console.log("Los valores no coinciden");
+                break;
+            default:
+                console.log("Los valores no se definen");
+        }
+
+        //Array
+        let names= ["Carmen", "Andrea", "Siomara"];
+        for(i=0; i< names.length; i++)
+        {
+            console.log(names[i]);
+        };
+
+
+
+
+    </script>
+
+
+
+    </body>
+    </html>
